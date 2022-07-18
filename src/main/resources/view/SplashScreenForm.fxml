@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="557.0" prefWidth="841.0" style="-fx-background-color: rgba(0,0,0,0);" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.SplashScreenFormController">
+   <children>
+      <ImageView fx:id="imgSplash" fitHeight="150.0" fitWidth="200.0" layoutX="274.0" layoutY="39.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../../Downloads/splash.gif" />
+         </image></ImageView>
+      <AnchorPane layoutX="290.0" layoutY="255.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: rgba(0,0,0,0);">
+         <children>
+            <Label fx:id="lblLoding" layoutX="78.0" layoutY="82.0" text="Loding...." />
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

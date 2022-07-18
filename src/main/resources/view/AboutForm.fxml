@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.AboutFormController">
+   <children>
+      <TextArea fx:id="txtAbout" layoutX="240.0" layoutY="185.0" prefHeight="95.0" prefWidth="120.0" text="About&#10;&#10;Sanduni" />
+      <ImageView fitHeight="95.0" fitWidth="120.0" layoutX="234.0" layoutY="68.0">
+         <image>
+            <Image url="/image/t.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
